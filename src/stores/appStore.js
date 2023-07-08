@@ -17,7 +17,7 @@ export const useAppStore = defineStore('global-application', {
       name: 'John',
       lastName: 'Snow',
       house: 'Stark',
-      gender: 'male'
+      gender: 'Male'
     }
   }),
   //Persist everything
