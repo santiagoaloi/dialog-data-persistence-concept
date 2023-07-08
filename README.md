@@ -44,7 +44,7 @@
 ```bash
 
 # clone
-git clone https://github.com/santiagoaloi/simple-boilerplate.git
+git clone https://github.com/santiagoaloi/dialog-data-persistence-concept
 
 # enter the project directory
 cd simplesign-refactor

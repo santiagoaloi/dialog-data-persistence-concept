@@ -10,13 +10,18 @@ export const useAppStore = defineStore('global-application', {
       text: '',
       color: ''
     },
-    array: [1, 2, 3]
-  }),
 
-  persist: {
-    //Persist only currentTheme
-    paths: ['currentTheme']
-  },
+    dialog: false,
+
+    dialogFormFields: {
+      name: 'John',
+      lastName: 'Snow',
+      house: 'Stark',
+      gender: 'male'
+    }
+  }),
+  //Persist everything
+  persist: true,
 
   getters: {
     isDark: (state) => state.currentTheme === 'dark'
