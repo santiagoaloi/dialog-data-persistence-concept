@@ -3,7 +3,7 @@
   <VDialog v-model="dialog">
     <VCard class="mx-auto" width="500">
       <VToolbar color="primary">
-        <VToolbarTitle>Settings</VToolbarTitle>
+        <VToolbarTitle>Character</VToolbarTitle>
         <VSpacer />
         <VToolbarItems>
           <VBtn class="mx-3" icon="$close" size="small" @click="dialog = false" />
