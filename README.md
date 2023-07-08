@@ -47,7 +47,7 @@
 git clone https://github.com/santiagoaloi/dialog-data-persistence-concept
 
 # enter the project directory
-cd simplesign-refactor
+cd dialog-data-persistence-concept
 
 # install dependencies
 yarn install
